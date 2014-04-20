@@ -1,0 +1,101 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  Internal Error (classFileParser.cpp:3494), pid=9148, tid=9180
+#  Error: ShouldNotReachHere()
+#
+# JRE version: 6.0_29-b11
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (20.4-b02 mixed mode windows-amd64 compressed oops)
+# If you would like to submit a bug report, please visit:
+#   http://java.sun.com/webapps/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x0000000002313000):  JavaThread "Unknown thread" [_thread_in_vm, id=9180, stack(0x0000000002150000,0x0000000002250000)]
+
+Stack: [0x0000000002150000,0x0000000002250000]
+[error occurred during error reporting (printing stack bounds), id 0xc0000005]
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x0000000002313000 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=9180, stack(0x0000000002150000,0x0000000002250000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Dynamic libraries:
+0x0000000000400000 - 0x000000000042e000 	C:\Program Files\Java\jre6\bin\javaw.exe
+0x00007ffde76f0000 - 0x00007ffde7899000 	C:\WINDOWS\SYSTEM32\ntdll.dll
+0x00007ffde56d0000 - 0x00007ffde5809000 	C:\WINDOWS\system32\KERNEL32.DLL
+0x00007ffde4b40000 - 0x00007ffde4c4e000 	C:\WINDOWS\system32\KERNELBASE.dll
+0x00007ffde36a0000 - 0x00007ffde372b000 	C:\WINDOWS\system32\apphelp.dll
+0x00007ffdd51f0000 - 0x00007ffdd523f000 	C:\WINDOWS\AppPatch\AppPatch64\AcGenral.DLL
+0x00007ffde6ee0000 - 0x00007ffde6f87000 	C:\WINDOWS\system32\msvcrt.dll
+0x00007ffde4850000 - 0x00007ffde487b000 	C:\WINDOWS\SYSTEM32\SspiCli.dll
+0x00007ffde74b0000 - 0x00007ffde7501000 	C:\WINDOWS\system32\SHLWAPI.dll
+0x00007ffde6f90000 - 0x00007ffde7101000 	C:\WINDOWS\system32\USER32.dll
+0x00007ffde7570000 - 0x00007ffde76e6000 	C:\WINDOWS\system32\ole32.dll
+0x00007ffde5810000 - 0x00007ffde6c20000 	C:\WINDOWS\system32\SHELL32.dll
+0x00007ffde4040000 - 0x00007ffde405f000 	C:\WINDOWS\SYSTEM32\USERENV.dll
+0x00007ffde4f80000 - 0x00007ffde5025000 	C:\WINDOWS\system32\ADVAPI32.dll
+0x00007ffdde280000 - 0x00007ffdde29b000 	C:\WINDOWS\SYSTEM32\MPR.dll
+0x00007ffde6ca0000 - 0x00007ffde6dd6000 	C:\WINDOWS\system32\RPCRT4.dll
+0x00007ffde5030000 - 0x00007ffde5087000 	C:\WINDOWS\SYSTEM32\sechost.dll
+0x00007ffde5090000 - 0x00007ffde5267000 	C:\WINDOWS\SYSTEM32\combase.dll
+0x00007ffde7170000 - 0x00007ffde72b5000 	C:\WINDOWS\system32\GDI32.dll
+0x00007ffde4a70000 - 0x00007ffde4a84000 	C:\WINDOWS\SYSTEM32\profapi.dll
+0x00007ffde3360000 - 0x00007ffde3401000 	C:\WINDOWS\SYSTEM32\SHCORE.dll
+0x00007ffde6ea0000 - 0x00007ffde6ed4000 	C:\WINDOWS\system32\IMM32.DLL
+0x00007ffde7370000 - 0x00007ffde74a8000 	C:\WINDOWS\system32\MSCTF.dll
+0x00007ffddded0000 - 0x00007ffdde0da000 	C:\Program Files (x86)\BkavPro\System\Firewall\BkavFirewallEngine64.dll
+0x00007ffde52a0000 - 0x00007ffde52a7000 	C:\WINDOWS\system32\PSAPI.DLL
+0x00007ffde6c40000 - 0x00007ffde6c98000 	C:\WINDOWS\system32\WS2_32.dll
+0x00007ffdddd40000 - 0x00007ffdddec8000 	C:\WINDOWS\SYSTEM32\dbghelp.dll
+0x00007ffdde1a0000 - 0x00007ffdde1aa000 	C:\WINDOWS\SYSTEM32\VERSION.dll
+0x00007ffde6c30000 - 0x00007ffde6c39000 	C:\WINDOWS\system32\NSI.dll
+0x00007ffde4990000 - 0x00007ffde49e7000 	C:\WINDOWS\SYSTEM32\Winsta.dll
+0x00007ffde42d0000 - 0x00007ffde4328000 	C:\WINDOWS\SYSTEM32\mswsock.dll
+0x00007ffdde190000 - 0x00007ffdde199000 	C:\WINDOWS\SYSTEM32\Wsock32.dll
+0x000000006d7f0000 - 0x000000006dfa8000 	C:\Program Files\Java\jre6\bin\server\jvm.dll
+0x00007ffdde170000 - 0x00007ffdde18f000 	C:\WINDOWS\SYSTEM32\WINMM.dll
+0x00007ffdde140000 - 0x00007ffdde16a000 	C:\WINDOWS\SYSTEM32\WINMMBASE.dll
+0x00007ffde4f30000 - 0x00007ffde4f7a000 	C:\WINDOWS\SYSTEM32\cfgmgr32.dll
+0x00007ffde3920000 - 0x00007ffde3946000 	C:\WINDOWS\SYSTEM32\DEVOBJ.dll
+0x000000006d760000 - 0x000000006d76e000 	C:\Program Files\Java\jre6\bin\verify.dll
+0x000000006d3b0000 - 0x000000006d3d7000 	C:\Program Files\Java\jre6\bin\java.dll
+0x000000006d7b0000 - 0x000000006d7c2000 	C:\Program Files\Java\jre6\bin\zip.dll
+
+VM Arguments:
+jvm_args: -Dfile.encoding=UTF-8 -Xbootclasspath:C:\Users\Hung\android-sdks\platforms\android-19\android.jar 
+java_command: com.nms.dms.ActivityLogin
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+JAVA_HOME=C:\Program Files\Java\jdk1.6.0_29
+PATH=C:\Program Files (x86)\Common Files\NetSarang;D:\app\Hung\product\11.2.0\client_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.6.0_29\bin;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\axis2-1.4\bin
+USERNAME=Hung
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 37 Stepping 5, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows NT 6.2 Build 9200 
+
+CPU:total 4 (2 cores per cpu, 2 threads per core) family 6 model 37 stepping 5, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, ht
+
+Memory: 4k page, physical 8179364k(3660252k free), swap 16567972k(10871136k free)
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (20.4-b02) for windows-amd64 JRE (1.6.0_29-b11), built on Oct  3 2011 01:06:42 by "java_re" with MS VC++ 8.0 (VS2005)
+
+time: Tue Apr 15 17:37:57 2014
+elapsed time: 0 seconds
+

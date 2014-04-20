@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">DMS</string>
+	
+    <string-array name="syncIssue">
+        <item>Can not Sync</item>
+        <item>Error</item>
+        <item>Sync</item>
+        <item >Normal</item>
+        <item >Sync Slow</item>
+    </string-array>
+    
+    <string-array name="outletIssue">
+        <item >Create</item>
+        <item >Not create</item>
+    </string-array>
+    
+    <string-array name="loginStatus">
+        <item >Success</item>
+        <item >Failure</item>
+    </string-array>
+    
+    <string-array name="checkStocks">
+        <item >Available</item>
+        <item >Not available</item>
+    </string-array>
+    
+    <string-array name="voiceIssue">
+        <item >Call setup failure</item>
+        <item >Dropped call</item>
+        <item >Bad voice quality</item>
+        <item >Silent  call</item>
+        <item >Good call</item>
+    </string-array>
+    
+    <string-array name="smsIssue">
+        <item >Cannot send</item>
+        <item >Cannot receive</item>
+        <item >Late to send</item>
+        <item >SMS sent</item>
+    </string-array>
+    
+    <string-array name="dataSpeedIssue">
+        <item >Fast</item>
+        <item >Normal</item>
+        <item >Slow</item>
+    </string-array>
+    
+    <string-array name="coverageIssue">
+        <item >Low signal</item>
+        <item >Fluctuate</item>
+        <item >No signal</item>
+        <item >Full signal</item>
+    </string-array>
+    
+    <string-array name="lockHandsetIssue">
+        <item >Lock</item>
+        <item >Not lock</item>
+    </string-array>
+    
+    
+    
+     <!-- Action Bar action items -->
+    <string name="action_search">Search</string>
+    <string name="action_location_found">Location Found</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_logout">Thoát</string>
+    <string name="action_help">Help</string>
+    <string name="action_check_updates">Check for Updates</string>
+    <string name="action_send_now">Submit</string>
+    <string name="action_save">Save Log</string>
+    <string name="action_delete">Delete All</string>
+    
+    
+</resources>
